@@ -1,0 +1,3 @@
+# app-ads.txt is crawled by ad networks — keep it LF-only so no parser
+# trips over CRLF line endings.
+app-ads.txt text eol=lf
