@@ -60,13 +60,14 @@
   <p class="meta">
     Roomies: Logic Puzzle · Deffy Game Studios<br>
     Package: com.deffygames.roomies<br>
-    Last updated: 27 October 2026 (online leaderboard added)
+    Last updated: 28 October 2026 (Play Games sign-in, reports)
   </p>
 
   <p>
     Roomies is a logic puzzle game. You can play without an account. We don't
-    collect your phone number or location; if you choose to sign in with Google
-    for cloud save, we keep your account email and your saved progress. This
+    collect your phone number or location; if you sign in with Google Play Games
+    for cloud save and the leaderboard, we keep your Play Games player name and
+    identifier and your saved progress. This
     policy explains the limited data the app handles.
   </p>
 
@@ -81,14 +82,16 @@
 
   <h2>2. Cloud save (optional)</h2>
   <p>
-    If you sign in with Google in Settings, the app uses Google Firebase
-    (Authentication and Cloud Firestore) to back up your progress. We then
-    store your Firebase account identifier, the email address and name of your
-    Google account, and a copy of the game data listed above, so it can be
-    restored on another phone. The data is linked to your account, is
-    encrypted in transit and is not shared with anyone. You can sign out at any
-    time, and <em>Delete my account and cloud data</em> in Settings deletes the
-    cloud copy and the account.
+    If you are signed in to Google Play Games (the app signs in automatically
+    when Play Games is set up on your phone, and you can sign in from Settings
+    or the leaderboard), the app uses Google Firebase (Authentication and Cloud
+    Firestore) to back up your progress. We then store your Firebase account
+    identifier, your Play Games player identifier and name, and a copy of the
+    game data listed above, so it can be restored on another phone. We don't
+    receive your email address. The data is linked to your account, is
+    encrypted in transit and is not shared with anyone.
+    <em>Delete my account and cloud data</em> in Settings deletes the cloud copy
+    and the account.
   </p>
 
   <h2>3. Analytics</h2>
@@ -105,11 +108,12 @@
   <p>
     The app suggests a random nickname (an animal name and a number), which you
     can change. Please don't use your real name or other personal information as
-    a nickname; names with offensive words are not accepted. If you sign in with
-    Google, the online leaderboard (stored in Cloud Firestore) shows your
+    a nickname; names with offensive words are not accepted, and players can
+    report a name by long-pressing it. If you are signed in, the online leaderboard (stored in Cloud Firestore) shows your
     nickname, your best level, your star counts (all time and this week) and the
-    leaderboard look and badge you picked to all players. Your email address and
-    Google name are never shown. Without signing in, your row appears only on
+    leaderboard look and badge you picked to all players. Your Play Games name is
+    never shown there. Reports contain the reported player's identifier and
+    nickname and the reporter's identifier. Without signing in, your row appears only on
     your device.
   </p>
 
@@ -157,8 +161,8 @@
   <p>
     On your device: uninstall the app or clear its data in Android settings.
     In the cloud: use <em>Delete my account and cloud data</em> in Settings,
-    which deletes your backup, your leaderboard row and your account right away, or email us from
-    the address of your Google account and we will delete them. Analytics data
+    which deletes your backup, your leaderboard row and your account right away,
+    or email us with your Play Games name and we will delete them. Analytics data
     is kept by Google for up to 14 months. Data collected by Google AdMob is
     handled under Google's privacy policy; you can reset your advertising ID in
     Android settings.
@@ -183,15 +187,15 @@
   <p class="meta" lang="tr">
     Roomies: Logic Puzzle · Deffy Game Studios<br>
     Paket: com.deffygames.roomies<br>
-    Son güncelleme: 27 Ekim 2026 (çevrim içi sıralama eklendi)
+    Son güncelleme: 28 Ekim 2026 (Play Games girişi, bildirimler)
   </p>
 
   <div lang="tr">
     <p>
       Roomies bir mantık bulmacası oyunudur. Hesap olmadan oynanabilir.
-      Telefon numaranızı veya konumunuzu toplamıyoruz; bulut kaydı için Google
-      ile giriş yapmayı seçerseniz hesabınızın e-posta adresini ve kaydedilen
-      ilerlemenizi saklarız. Bu politika, uygulamanın işlediği sınırlı veriyi
+      Telefon numaranızı veya konumunuzu toplamıyoruz; bulut kaydı ve sıralama
+      için Google Play Games ile giriş yaparsanız Play Games oyuncu adınızı ve
+      kimliğinizi ve kaydedilen ilerlemenizi saklarız. Bu politika, uygulamanın işlediği sınırlı veriyi
       açıklar.
     </p>
 
@@ -206,14 +210,15 @@
 
     <h2>2. Bulut kaydı (isteğe bağlı)</h2>
     <p>
-      Ayarlar'dan Google ile giriş yaparsanız uygulama, ilerlemenizi yedeklemek
-      için Google Firebase'i (Authentication ve Cloud Firestore) kullanır. Bu
-      durumda Firebase hesap kimliğinizi, Google hesabınızın e-posta adresini ve
-      adını ve yukarıda sayılan oyun verilerinin bir kopyasını saklarız; böylece
-      başka bir telefonda geri yüklenebilir. Veriler hesabınıza bağlıdır,
-      aktarım sırasında şifrelenir ve kimseyle paylaşılmaz. İstediğiniz zaman
-      çıkış yapabilirsiniz; Ayarlar'daki <em>Hesabımı ve bulut verimi sil</em>
-      bulut kopyasını ve hesabı siler.
+      Google Play Games'te oturumunuz açıksa (telefonunuzda Play Games kuruluysa
+      uygulama otomatik giriş yapar; Ayarlar'dan veya sıralamadan da giriş
+      yapabilirsiniz) uygulama, ilerlemenizi yedeklemek için Google Firebase'i
+      (Authentication ve Cloud Firestore) kullanır. Bu durumda Firebase hesap
+      kimliğinizi, Play Games oyuncu kimliğinizi ve adınızı ve yukarıda sayılan
+      oyun verilerinin bir kopyasını saklarız; böylece başka bir telefonda geri
+      yüklenebilir. E-posta adresinizi almayız. Veriler hesabınıza bağlıdır,
+      aktarım sırasında şifrelenir ve kimseyle paylaşılmaz. Ayarlar'daki
+      <em>Hesabımı ve bulut verimi sil</em> bulut kopyasını ve hesabı siler.
     </p>
 
     <h2>3. Analiz</h2>
@@ -232,11 +237,13 @@
       Uygulama rastgele bir takma ad önerir (bir hayvan adı ve bir sayı); bunu
       değiştirebilirsiniz. Lütfen takma ad olarak gerçek adınızı veya başka bir
       kişisel bilgiyi kullanmayın; hakaret veya küfür içeren adlar kabul
-      edilmez. Google ile giriş yaparsanız çevrim içi sıralama (Cloud
+      edilmez; oyuncular bir ada uzun basarak onu bildirebilir. Giriş
+      yaptıysanız çevrim içi sıralama (Cloud
       Firestore'da saklanır) takma adınızı, en yüksek bölümünüzü, yıldız
       sayılarınızı (tüm zamanlar ve bu hafta) ve seçtiğiniz sıralama görünümünü
-      ve rozetini tüm oyunculara gösterir. E-posta adresiniz ve Google adınız
-      asla gösterilmez. Giriş yapmazsanız satırınız yalnızca cihazınızda
+      ve rozetini tüm oyunculara gösterir. Play Games adınız orada gösterilmez.
+      Bildirimler, bildirilen oyuncunun kimliğini ve takma adını ve bildirenin
+      kimliğini içerir. Giriş yapmazsanız satırınız yalnızca cihazınızda
       görünür.
     </p>
 
@@ -286,8 +293,8 @@
     <p>
       Cihazınızda: uygulamayı kaldırın veya Android ayarlarından verilerini
       temizleyin. Bulutta: Ayarlar'daki <em>Hesabımı ve bulut verimi sil</em>
-      yedeğinizi, sıralama satırınızı ve hesabınızı hemen siler; ya da Google hesabınızın adresinden
-      bize e-posta gönderin, biz silelim. Analiz verileri Google tarafından en
+      yedeğinizi, sıralama satırınızı ve hesabınızı hemen siler; ya da Play Games
+      adınızla bize e-posta gönderin, biz silelim. Analiz verileri Google tarafından en
       fazla 14 ay saklanır. Google AdMob'un topladığı veriler Google'ın gizlilik
       politikasına tabidir; reklam kimliğinizi Android ayarlarından
       sıfırlayabilirsiniz.
